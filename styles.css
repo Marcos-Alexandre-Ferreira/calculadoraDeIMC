@@ -1,0 +1,85 @@
+/* css reset - boa prática */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #eb9e23;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #10001f;
+    background-color: #dacdb8;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#card-nivel {
+    width: 250px;
+    margin: 0 auto; /* centraliza horizontalmente */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo base do retângulo */
+.retangulo {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  color: white;
+  transition: background 0.5s; /* Efeito suave na troca de cor */
+}
+
+/* Cores por faixa */
+.bg-AbaixoDoPeso { background-color: #DC143C; } 
+.bg-PesoNormal  { background-color: #008000; } 
+.bg-SobrePeso { background-color: #808000; } 
+.bg-Obesidade1 { background-color: #DAA520; } 
+.bg-Obesidade2 { background-color: #D2691E; } 
+.bg-Obesidade3 { background-color: #8B0000; } 
+
+#buttonCalcularIMC {
+    background-color: #dacdb8;
+    border-radius: 6px;
+    border-color: #0b071553;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20.5%;
+}
+
+#buttonCalcularIMC:hover {
+    background-color: #8000ff;
+    transition: 0.9s;
+}
+
+
+/*footer*/
+footer {
+    color:#0b0715;
+    text-align: center;
+    background-color: #838285;
+}
+
+footer a {
+    text-decoration: none;
+    color: #22053d;
+}
+
+footer a:hover {
+    text-decoration:  underline;
+}
+.footerbaixo {
+    background-color: #838285;
+}

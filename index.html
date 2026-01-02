@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <h3>(Índice de Massa Corporal)</h3>
+    </header>
+    <main>
+        <label for="peso">Insira o valor do peso(kg): </label><br>
+        <input type="number" id="peso"><br>
+
+        <label for="altura">Insira o valor da altura(m): </label><br>
+        <input type="number" id="altura"><br>
+
+        <div id="card-nivel" class="retangulo">
+            <p id="resultado"></p>
+            <span id="classe"></span>
+        </div>
+
+        <button id="buttonCalcularIMC" onclick="calcularIMC()" >Calcular</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Marcos Alexandre - Todos os direitos reservados</p>
+        <p>Conecte-se comigo:</p>
+        <a href="https://www.linkedin.com/in/marcos-alexandre-972316186/"target="_blank">Linkdlin</a> |
+        <a href="https://github.com/Marcos-Alexandre-Ferreira"target="_blank">GitHub</a> |
+    </footer>
+    <p class="footerbaixo"><br><br></p>
+</body>
+</html>
